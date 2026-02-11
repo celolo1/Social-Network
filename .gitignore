@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+/backend/dist
+/frontend/dist
+/frontend/build
+
+# Generic build folders
+/dist
+/build
+
+# Vite / caches
+.vite/
+.cache/
+.parcel-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# Package manager debug
+.pnpm-debug.log
+.pnp.*
+
+# Local database / dumps
+/data/
+*.db
+
+# Temporary files
+tmp/
+temp/
